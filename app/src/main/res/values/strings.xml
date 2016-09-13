@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">"ILoveNougat :) "</string>
+    <string name="action_settings">Settings</string>
+    <string name="base_url_zappos">https://api.zappos.com/</string>
+    <string name="base_url_6pm">https://api.6pm.com/</string>
+    <string name="APIKeyZappos">b743e26728e16b81da139182bb2094357c31d331</string>
+    <string name="APIKey6pm">524f01b7e2906210f7bb61dcbe1bfea26eb722eb</string>
+
+</resources>

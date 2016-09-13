@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context=".test.activities.SearchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:animateLayoutChanges="true"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/search_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter a search term, eg: Nike"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@color/colorAccent"
+            android:text="GO!"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/info_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            />
+
+    </LinearLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
